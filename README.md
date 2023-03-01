@@ -1,7 +1,7 @@
 # NetworkTester
 Azure NetworkTester
 
-#General Information
+# General Information
 
 The Network Tester is a collection of utilities bundled into a single script that can be useful to any Azure engineer to quickly collect, analyse and diagnose the most common networking issues in a Linux OS.
 
@@ -48,7 +48,7 @@ The script needs some packages installed to properly run, such as:
 
 These can be also installed by the script itself at runtime.
 
-#Usage
+# Usage
 
 The Script must be run as root or with sudo privileges to gather all the information.
 In order to do that, the following methods are allowed:
@@ -72,7 +72,7 @@ or
 
 sudo bash NetworkTester --tcp-dump
 
-#Tcpdump
+# Tcpdump
 
 Once invoked, the tcpdump utility accepts as argument the source IP and the destination port to be filtered.
 The output will be then collected in /tmp ready to be shared and/or analysed with a proper packet analyser software (ex. Wireshark).
