@@ -1,7 +1,4 @@
-# NetworkTester
-Azure NetworkTester
-
-# General Information
+# Network Tester General Information
 
 The Network Tester is a collection of utilities bundled into a single script that can be useful to any Azure engineer to quickly collect, analyse and diagnose the most common networking issues in a Linux OS.
 
