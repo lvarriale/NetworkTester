@@ -326,7 +326,7 @@ if [[ "$rel" =~ 'rhel' ]]; then
 elif [[ "$rel" =~ 'Oracle' ]]; then
     /usr/bin/stat /etc/sysconfig/network-scripts/ifcfg-eth* >> /tmp/NetLog$datetime ;
 elif [[ "$rel" =~ 'debian' ]]; then
-    /usr/bin/stat /etc/netplan/*-cloud* >> tmp/NetLog$datetime ;
+    /usr/bin/stat /etc/netplan/*-cloud* >> /tmp/NetLog$datetime ;
 elif [[ "$rel" =~ 'SLES' ]]; then
     /usr/bin/stat /etc/sysconfig/network-scripts/ifcfg-eth* >> /tmp/NetLog$datetime ;
 else
