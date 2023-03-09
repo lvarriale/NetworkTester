@@ -185,7 +185,7 @@ else echo -n "Routes not found. Do you want the script tries to fix the iproutes
         case $IPROUTE in
 
                 YES | yes | y)
-				echo "insert the cidr mask (ex: only /24)"
+				echo "insert the cidr mask (ex: only 24)"
                 read cidr
                                 function cidr_to_subnet() {
                                 cidr=$1
