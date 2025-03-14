@@ -82,7 +82,7 @@ datetime=$(date +%Y-%m-%d.%H:%M)
 ## set packages for installation
 rhrpms=("bash-completion" "curl" "sysstat" "netfilter" "iptables" "bind-utils" "net-tools")
 slesrpms=("bash-completion" "curl" "sysstat" "netfilter" "iptables" "bind-utils" "net-tools")
-debpkgs=("bash-completion" "curl" "sysstat" "netfilter" "iptables" "bind9-utils" "net-tools")
+debpkgs=("bash-completion" "curl" "sysstat" "netfilter" "iptables" "bind9-utils" "net-tools" "isc-dhcp-client")
 
 echo "Attention: this script must be run as root or with sudo privileges (sudo bash scriptname.sh)"
 
